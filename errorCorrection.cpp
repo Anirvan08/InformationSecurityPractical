@@ -11,7 +11,7 @@ int main()
     cin >> data[5];
     cin >> data[6];
     cin >> data[7];
-    data[1] = data[3] ^ data[5] ^ data[7] ^ data[9];
+    data[1] = data[3] ^ data[5] ^ data[7];
     data[2] = data[3] ^ data[6] ^ data[7];
     data[4] = data[5] ^ data[6] ^ data[7];
 
